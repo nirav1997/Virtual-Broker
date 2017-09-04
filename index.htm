@@ -1,0 +1,42 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="Data.css">
+</head>
+<body>
+
+ <div class="container">  
+  <form action="Submit.php"  method="post" name="f"  enctype="multipart/form-data">
+    
+    <center><h3>VIRTUAL BROKER</h3></center>
+    
+    <p>
+        <label for="Area">Area:</label>
+        <input type="text" name="Area" id="Area">
+    </p>
+
+    
+    <p>
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name">
+    </p>
+    <p>
+        <label for="Location">Location:</label>
+        <input type="text" name="Location" id="Location">
+    </p>
+    <p>
+        <label for="BHK">BHK:</label>
+        <input type="text" name="BHK" id="BHK">
+    </p>
+   <p>
+        <label for="Image">Images:</label>
+       <input type="file" name="files[]" multiple/>
+     </p></br>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+</form>
+</div>
+
+</body>
+</html>
